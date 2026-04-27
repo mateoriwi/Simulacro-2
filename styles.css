@@ -10,3 +10,151 @@ body {
     background-color: #000000;
     color: #ffffff;
 }
+
+header {
+    background-color: #f0c60d;
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+header h1 {
+    color: #000000;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    transition: 0.3s;
+    
+}
+
+nav a:hover {
+    color: #a58b15;
+}
+
+#hero {
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#hero h2 {
+    color: #f0c60d;
+    font-size: 49px;
+}
+
+#Sobre-el-festival {
+    background-color: #f0c60d;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+#Sobre-el-festival h2 {
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+#Sobre-el-festival p {
+    color: #000000;
+    line-height: 1.5;
+}
+
+#Sobre-el-festival ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style: disc;
+    padding-left: 20px;
+    color: #000000;
+}
+
+h3  {
+    margin-top: 20px;
+    color: #000000;
+}
+
+#artistas {
+    background-color: #f0c60d;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #f0c60d;
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+footer p {
+    color: #000000;
+
+}
+
+#fechas {
+    background-color: #f0c60d;
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    
+}
+
+#fechas h2 {
+    color: #000000;
+}
+
+table {
+    margin-right: 200px;
+    padding: 30px;
+    gap: 40px;
+    border-spacing: 40px 15px;
+}
+
+table th {
+    color:#000000
+}
+
+table td {
+    color: #000000;
+}
+
+#Puntos-destacados {
+    background-color:#f0c60d ;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+#Puntos-destacados h2 {
+    color: #000000;
+}
+
+#Puntos-destacados ul {
+    color: #000000;
+    margin-left: 40px ;
+}
